@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio Esri Desriyani — Praktisi Pendidikan & Owner PT. Seribelajar Indonesia. Membangun pengalaman belajar yang bermakna dengan teknologi modern." />
+  <meta name="author" content="Esri Desriyani" />
+  <title>Esri Desriyani — Praktisi Pendidikan & Owner PT. Seribelajar Indonesia</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <!-- Animated gradient background -->
+  <div class="bg-gradient" aria-hidden="true">
+    <span class="orb orb--1"></span>
+    <span class="orb orb--2"></span>
+    <span class="orb orb--3"></span>
+    <div class="bg-grid"></div>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-mark">ED</span>
+        <span class="nav__logo-text">Esri Desriyani</span>
+      </a>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#hero" class="nav__link is-active">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#hero" class="nav__link nav__link--cta">Let's Talk</a></li>
+      </ul>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <span class="badge">
+            <span class="badge__dot"></span>
+            Available for opportunities
+          </span>
+
+          <h1 class="hero__title">
+            Hi, I'm Esri Desriyani
+          </h1>
+
+          <p class="hero__typed">
+            <span class="hero__typed-prefix">Saya seorang</span>
+            <span class="typewriter" id="typewriter"></span>
+            <span class="caret">&nbsp;</span>
+          </p>
+
+          <p class="hero__tagline">
+            Membangun pengalaman digital cerdas dengan AI dan teknologi web modern.
+          </p>
+
+          <div class="hero__meta">
+            <span class="hero__meta-item">📍 Bandung, Indonesia</span>
+            <span class="hero__meta-item">✉️ esri@prestasijunior.org</span>
+          </div>
+
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">
+              Lihat Project
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="assets/resume.pdf" class="btn btn--ghost" download>
+              Download Resume
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__photo float">
+            <div class="hero__photo-ring"></div>
+            <div class="hero__photo-inner">
+              <img src="assets/esri.jpg" alt="Foto profil Esri Desriyani" class="hero__photo-img" loading="eager" />
+            </div>
+            <span class="hero__chip hero__chip--1">AI</span>
+            <span class="hero__chip hero__chip--2">{ }</span>
+            <span class="hero__chip hero__chip--3">&lt;/&gt;</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll ke bawah">
+        <span class="hero__scroll-mouse"><span></span></span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__eyebrow">01 — About</span>
+          <h2 class="section__title">A bit about me</h2>
+        </header>
+
+        <div class="about__grid">
+          <div class="about__bio reveal">
+            <p class="about__lead">
+              Esri Desriyani is a passionate full-stack AI engineer with expertise in
+              frontend development, backend systems, cloud deployment, and AI-powered
+              applications.
+            </p>
+            <p class="about__text">
+              She specializes in building scalable web platforms, intelligent automation
+              tools, and modern user experiences. She enjoys solving real-world problems
+              through clean architecture and innovative technologies.
+            </p>
+
+            <ul class="about__highlights">
+              <li><span class="dot"></span> 5+ tahun membangun produk web & AI end-to-end</li>
+              <li><span class="dot"></span> Fokus pada clean architecture & performa</li>
+              <li><span class="dot"></span> Pengalaman memimpin fitur AI dari ide hingga produksi</li>
+            </ul>
+          </div>
+
+          <div class="about__stats reveal">
+            <article class="glass stat">
+              <span class="stat__num" data-count="5" data-suffix="+">0</span>
+              <span class="stat__label">Tahun Pengalaman</span>
+            </article>
+            <article class="glass stat">
+              <span class="stat__num" data-count="40" data-suffix="+">0</span>
+              <span class="stat__label">Proyek Selesai</span>
+            </article>
+            <article class="glass stat">
+              <span class="stat__num" data-count="20" data-suffix="+">0</span>
+              <span class="stat__label">Klien Puas</span>
+            </article>
+            <article class="glass stat">
+              <span class="stat__num" data-count="15" data-suffix="K+">0</span>
+              <span class="stat__label">Jam Coding</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
